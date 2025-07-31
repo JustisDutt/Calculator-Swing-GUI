@@ -19,8 +19,11 @@ Responsive Design: Grid-based layout adjusts to window resizing, with a professi
 Technologies
 
 Java: Core programming language (Java SE).
+
 Swing: For the graphical user interface.
+
 BigDecimal: For precise decimal calculations.
+
 Nimbus Look and Feel: For a modern UI appearance.
 
 Setup
