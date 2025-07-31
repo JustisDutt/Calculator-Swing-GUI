@@ -1,12 +1,16 @@
 Java Calculator
+
 A Java-based calculator application with a graphical user interface (GUI) built using Swing. The calculator supports basic arithmetic operations (addition, subtraction, multiplication, division) with high-precision calculations using BigDecimal. It features a responsive GUI, keyboard input support, and error handling for invalid operations like division by zero.
+
 Features
 
 Basic Arithmetic Operations: Supports addition (+), subtraction (-), multiplication (*), and division (/).
 High-Precision Calculations: Uses BigDecimal for accurate decimal arithmetic, avoiding floating-point errors.
 Graphical User Interface: Built with Java Swing, featuring a clean layout with buttons for digits, operators, and functions.
 Keyboard Input: Supports keyboard input for digits, operators, decimal point, Enter, Backspace, and more.
+
 Function Buttons:
+
 Clear (C): Resets the calculator to its initial state.
 Backspace (←): Deletes the last digit or decimal point.
 Toggle Sign (±): Changes the sign of the current number or result.
@@ -23,6 +27,7 @@ BigDecimal: For precise decimal calculations.
 Nimbus Look and Feel: For a modern UI appearance.
 
 Setup
+
 To run the calculator locally, follow these steps:
 
 Clone the Repository:
@@ -43,10 +48,8 @@ From the command line:javac -d bin src/Calculator/*.java
 java -cp bin Calculator.CalculatorMain
 
 
-
-
-
 Usage
+
 GUI Controls
 
 Click digit buttons (0-9) to input numbers.
@@ -65,14 +68,22 @@ Esc: Clear all.
 F9: Toggle sign.
 
 Project Structure
+
 Java-Calculator/
 ├── src/
+
 │   └── Calculator/
+
 │       ├── CalculatorModel.java
+
 │       ├── CalculatorGUI.java
+
 │       ├── CalculatorController.java
+
 │       ├── CalculatorMain.java
+
 ├── README.md
 
 License
+
 This project is licensed under the MIT License. See the LICENSE file for details.
